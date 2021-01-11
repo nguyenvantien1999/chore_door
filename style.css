@@ -1,0 +1,110 @@
+body {
+  	background-color: #010165;
+  	margin: 0px;
+  	padding: 0px;
+}
+
+@media screen and (max-width: 3000px) {
+	#logo{
+		background-color: #00ffcc;
+		/*padding: 10px;
+		padding-left: 880px;
+		padding-right: 875px;*/
+	}
+	/* luật chơi=====================================*/	
+	#instr{
+		color: #00ffcc;
+		/*margin-left: 890px;
+		margin-top: 50px;*/
+	}
+	ol{
+		list-style: none;
+		margin-top: 20px;
+	}
+	li .So{
+		color: #00ffcc;
+		font-size: 30px;
+		margin-right: 50px;
+	}
+	li span{
+		font-size: 20px;
+		color: #fff;
+	}
+
+	/*Cửa ==========================================*/
+	#cua{
+		margin-top: 40px;
+	}
+	#cua1, #cua2, #cua3, #button{
+		cursor: pointer;
+	}
+	/*nút =========================================*/
+	#button{
+		/*width: 150px;
+		height: 80px;*/
+		background-color: #ff6600;
+		/*margin-left: 905px;*/
+		margin-top: 30px;
+	}
+	#text_bt{
+		color:  #010165;
+		/*margin-bottom: 10px;*/
+	}
+	#text{
+		/*margin-top: 20px;
+		margin-left: 800px;*/
+		font-size: 20px;
+		color: #fff;
+	}
+	#text_bt div{
+		padding-top: 10px;
+	}
+	/*Điểm ==========================================*/
+	#Current{
+		/*margin-left: 800px;*/
+		width: 150px;
+		height: 150px;
+		background-color: #00ffcc;
+	}
+	#Current b{
+		color: #010165;
+		font-size: 80px;
+		margin-left: 50px;
+	}
+	#Best{
+		width: 150px;
+		height: 150px;
+		background-color: #00ffcc;
+	}
+	#Best b{
+		color: #010165;
+		font-size: 80px;
+		margin-left: 50px;
+	}
+}
+@media screen and (max-width: 480px) {
+	li .So{
+		color: #00ffcc;
+		font-size: 20px;
+		margin-right: 10px;
+	}
+	li span{
+		font-size: 15px;
+		color: #fff;
+	}
+	/*Cửa ==========================================*/
+	#cua{
+		margin-top: 20px;
+	}
+	#Current, #Best{
+		width: 100px;
+		height: 100px;
+		background-color: #00ffcc;
+	}
+	#Best b, #Current b{
+		color: #010165;
+		font-size: 80px;
+		margin-left: 28px;
+		margin-bottom: 20px;
+	}
+}

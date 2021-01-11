@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+    	<title>Chore Door!</title>
+    	<link rel="canonical" href="https://amp.dev/documentation/guides-and-tutorials/start/create/basic_markup/">
+	    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    	<style amp-boilerplate>
+    		body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}
+    		@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
+    		@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
+    		@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
+    		@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
+    		@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
+		</style>
+		<noscript>
+			<style amp-boilerplate>
+				body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}
+    		</style>
+    	</noscript>
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    	<link href="./style.css" rel="stylesheet" type="text/css">
+    	<link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet" type="text/css">
+    	<script async src="https://cdn.ampproject.org/v0.js"></script>
+    	<script data-ad-client="ca-pub-8669463627043663" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+ 
+  	</head>
+
+  	<body>
+  		<!-- logo -->
+  		<div class="text-center pt-2 pb-2" id="logo">
+  			<img src="images/logo.svg">
+  		</div>
+  		
+  		<!-- luật chơi -->
+		<div class="row justify-content-center mt-3 mt-lg-5" id="instr">
+			<img class="mr-1" src="images/star.svg">
+			<h4>Instructions</h4>
+			<img class="ml-1" src="images/star.svg">
+		</div> 	
+  		<div class="row justify-content-center mr-4">
+  			<ol class="text-justify">
+	  			<li><span class="So">1</span><span>Hiding behind one of these doors is the ChoreBot.</span></li>
+	  			<li><span class="So">2</span><span>Your mission is to open all of the doors without running into the ChoreBot.</span></li>
+	  			<li><span class="So">3</span><span>If you manage to avoid the ChoreBot until the very last door, you win!</span></li>
+	  			<li><span class="So">4</span><span>See if you can score a winning streak!</span></li>
+	  		</ol>
+  		</div>	
+  		
+  		<!-- cửa -->
+  		<div id="cua" class="row justify-content-center">
+  			<img class="img-fluid mr-2 col-3  col-lg-1 offset-lg-0" id="cua1" src="images/closed_door.svg">
+  			<img class="img-fluid col-3 col-lg-1" id="cua2" class="ml-5" src="images/closed_door.svg">
+  			<img class="img-fluid ml-2 col-3 col-lg-1" id="cua3" class="ml-5" src="images/closed_door.svg">
+  		</div>
+  		<!-- nút reset -->
+  		<div id="button" class="text-center pt-2 pb-2 col-8 offset-2 col-lg-2 offset-lg-5" >
+  			<h4 ><b id="text_bt">Good look!</b></h4>
+  		</div>
+  		<!-- điểm -->
+  		<div id="text"  class="row justify-content-center mt-3 mt-lg-4">
+  			<p class="mr-3 mr-lg-5 ">Current streak:</p>
+  			<p class="ml-3 ml-lg-5">Best streak:</p>
+  		</div>
+  		<div class="row justify-content-center">
+  			<div id="Current" class="mr-4"><b id="pointC">0</b></div>
+  			<div id="Best" class="ml-5"><b id="pointB">0</b></div>
+  		</div>
+  		<script type="text/javascript" src="script.js"></script>
+  	</body>
+</html>
